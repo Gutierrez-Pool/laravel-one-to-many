@@ -10,6 +10,8 @@
         <hr>
         <h3>Benvenuto {{$user->name}}</h3>
 
+        <a href="{{route('admin.projects.index')}}" class="btn btn-info">Index</a>
+
         <a href="{{route('admin.projects.create')}}" class="btn btn-info">Aggiungi un progetto</a>
 
     </div>
