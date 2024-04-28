@@ -12,7 +12,7 @@ class Project extends Model
 
     use SoftDeletes;
 
-    protected $fillable = ['title', 'content'];
+    protected $fillable = ['title', 'content', 'type_id'];
 
     //Il project appartiene ad un solo tipo
     public function type() {
