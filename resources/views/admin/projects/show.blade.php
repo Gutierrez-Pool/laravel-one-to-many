@@ -9,6 +9,7 @@
         </div>
 
         <h1>{{$project->title}}</h1>
+        <small class="badge bg-primary">{{$project->type->title}}</small>
 
         <p>
             {{$project->content}}
